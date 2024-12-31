@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styleku.css" />
+  </head>
+  <body>
+    <div class="hero-image">
+      <h1>MOOON HOTELS</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#about">Tentang Kami</a></li>
+        <li><a href="#promotions">Promosi</a></li>
+        <li><a href="#branches">Cabang</a></li>
+        <li><a href="#contact">Hubungi Kami</a></li>
+        <li><a href="#prices">Harga Layanan</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb m-3">
+        <li class="breadcrumb-item"><a href="#about">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">All page</li>
+      </ol>
+    </nav>
+
+    <div id="about" class="container my-4">
+      <h2>Tentang Kami</h2>
+      <p>
+        Selamat datang di [Nama Perusahaan], penyedia layanan hotel dan
+        penginapan terkemuka yang didedikasikan untuk memberikan pengalaman
+        menginap yang tak terlupakan. Sejak didirikan pada tahun [Tahun
+        Berdiri], kami terus berkomitmen untuk menghadirkan layanan berkualitas
+        tinggi yang memenuhi kebutuhan para tamu, baik untuk perjalanan bisnis,
+        liburan keluarga, maupun acara spesial. Dengan jaringan hotel yang
+        tersebar di lokasi-lokasi strategis, kami menawarkan kenyamanan maksimal
+        melalui fasilitas modern, desain kamar yang elegan, dan suasana yang
+        hangat. Tim kami yang profesional selalu siap melayani Anda dengan
+        keramahan dan perhatian penuh terhadap detail. Selain memberikan layanan
+        terbaik, kami juga peduli terhadap lingkungan dengan mengimplementasikan
+        praktik keberlanjutan dalam operasional kami. Kami percaya bahwa
+        perjalanan Anda harus tidak hanya menyenangkan, tetapi juga mendukung
+        masa depan yang lebih baik. Jadikan [Nama Perusahaan] sebagai pilihan
+        utama Anda, dan rasakan pengalaman menginap yang dirancang khusus untuk
+        memenuhi kebutuhan Anda. Kami menantikan kehadiran Anda di salah satu
+        cabang kami yang tersebar di seluruh Indonesia!
+      </p>
+    </div>
+
+    <div
+      id="carouselExample"
+      class="carousel slide container mb-4"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/hotel1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="image/hotel2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="image/hotel3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="promotions" class="container mb-4">
+      <h2>Promosi</h2>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Paket</th>
+            <th>Harga</th>
+            <th>Waktu</th>
+            <th>Syarat dan Ketentuan</th>
+            <th>Deskripsi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paket Hemat</td>
+            <td>Rp400.000</td>
+            <td>2 Hari 1 Malam</td>
+            <td>Reservasi minimal 3 hari sebelum kedatangan</td>
+            <td>Paket untuk satu orang dengan sarapan gratis.</td>
+          </tr>
+          <tr>
+            <td>Paket Keluarga</td>
+            <td>Rp1.200.000</td>
+            <td>3 Hari 2 Malam</td>
+            <td>Untuk maksimal 4 orang</td>
+            <td>Dapatkan kamar deluxe dengan fasilitas keluarga.</td>
+          </tr>
+          <tr>
+            <td>Paket Bisnis</td>
+            <td>Rp700.000</td>
+            <td>1 Hari</td>
+            <td>Include ruang meeting</td>
+            <td>Untuk kebutuhan bisnis dengan ruang meeting.</td>
+          </tr>
+          <tr>
+            <td>Paket Romantis</td>
+            <td>Rp1.000.000</td>
+            <td>1 Malam</td>
+            <td>Reservasi minimal 5 hari sebelumnya</td>
+            <td>Paket spesial untuk pasangan dengan makan malam romantis.</td>
+          </tr>
+          <tr>
+            <td>Paket Bulanan</td>
+            <td>Rp10.000.000</td>
+            <td>30 Hari</td>
+            <td>Tidak bisa refund</td>
+            <td>Cocok untuk kebutuhan jangka panjang.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="branches" class="container mb-4">
+      <h2>Cabang Kami</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image/hotel1.jpg" class="card-img-top" alt="Cabang 1" />
+            <div class="card-body">
+              <h5 class="card-title">Cabang 1</h5>
+              <p class="card-text">Lombok</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image/hotel2.jpg" class="card-img-top" alt="Cabang 2" />
+            <div class="card-body">
+              <h5 class="card-title">Cabang 2</h5>
+              <p class="card-text">Bandung</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image/hotel3.jpg" class="card-img-top" alt="Cabang 3" />
+            <div class="card-body">
+              <h5 class="card-title">Cabang 3</h5>
+              <p class="card-text">Yogyakarta</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="container mb-4">
+      <h2>Hubungi Kami</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nama</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Masukkan nama Anda"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Masukkan email Anda"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Pesan</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            placeholder="Tulis pesan Anda"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+    </div>
+
+    <div id="prices" class="container mb-4">
+      <h2>Harga Layanan</h2>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Jenis Layanan</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sewa Kamar Standar</td>
+            <td>Rp500.000/malam</td>
+          </tr>
+          <tr>
+            <td>Sewa Kamar Deluxe</td>
+            <td>Rp800.000/malam</td>
+          </tr>
+          <tr>
+            <td>Sewa Kamar Suite</td>
+            <td>Rp1.200.000/malam</td>
+          </tr>
+          <tr>
+            <td>Sewa Kamar VIP</td>
+            <td>Rp1.500.000/malam</td>
+          </tr>
+          <tr>
+            <td>Ruang Rapat</td>
+            <td>Rp1.000.000/jam</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer class="text-center py-4">
+      <p>&copy; 2024 Moon Hotels. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
